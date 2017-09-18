@@ -1,0 +1,16 @@
+
+
+#login_form_window{
+	background: #121212;
+	border-image:url(./static/img/social.jpg);
+}
+
+
+#login_container{
+	background: rgba(50,50,50, 125);
+}
+
+#login_title{
+	color: #DDD;
+	font-size: 22px;
+}
