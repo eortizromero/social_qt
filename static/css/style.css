@@ -1,5 +1,9 @@
 
 
+#container{
+	background: red;
+}
+
 #login_form_window{
 	background: #121212;
 	border-image:url(./static/img/social.jpg);
@@ -13,4 +17,79 @@
 #login_title{
 	color: #DDD;
 	font-size: 22px;
+}
+
+#login_username,
+#login_password{
+	border-radius: 20px;
+	padding: 0 10px;
+	font-size: 11px;
+	font-weight: 900;
+	border: none;
+	color: #DDD;
+	background: rgba(50, 50, 50, 220);
+}
+
+#login_username:focus,
+#login_password:focus{
+	background: gray;
+	color: #FFF;
+}
+
+#login_username:disabled,
+#login_password:disabled{
+	background: #AAA;
+}
+
+#login_rememberme::indicator
+{
+	background:transparent;
+	width: 100%;
+}
+
+#label_icon
+{
+	border-radius:10%;
+	background:#CFCFCF;
+}
+
+#label_icon:hover
+{
+	background: #fff;
+}
+#login_rememberme
+{
+	color:transparent;
+	background:#000;
+	border-radius:10px;
+	border:2px solid #404040;
+}
+
+#login_rememberme:checked{
+	background:#2EBD79;
+	border:none;
+}
+
+#label_rememberme{
+	color: #FFF;
+	font-weight: 900;
+	font-size: 10px;
+}
+
+#button_login
+{
+	background:#2EBD79;
+	color:#fff;
+	border-radius:20%;
+	font-weight: 700;
+	font-size:10px;
+}
+
+#button_login:hover
+{
+	background:rgba(46, 219, 121, 240);
+}
+
+#div_create{
+	background: gray;
 }
